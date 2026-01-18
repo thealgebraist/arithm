@@ -1,0 +1,256 @@
+DIGEST 80dfe9573ebbbf1bb4af5b7773617eda
+Fproof
+R52:55 Stdlib.Lists.List <> <> lib
+R82:86 Stdlib.Arith.Arith <> <> lib
+R113:118 Stdlib.NArith.BinNat <> <> lib
+R145:148 Stdlib.Bool.Bool <> <> lib
+sec 254:269 <> ArithmeticCoding
+R5392:5407 proof ArithmeticCoding <> sec
+sec 182:190 <> Scenarios
+def 269:281 <> beq_list_bool
+R292:295 Corelib.Init.Datatypes <> list ind
+R297:300 Corelib.Init.Datatypes <> bool ind
+binder 284:285 <> l1:69
+binder 287:288 <> l2:70
+R305:308 Corelib.Init.Datatypes <> bool ind
+R327:328 proof <> l2:70 var
+R323:324 proof <> l1:69 var
+R341:343 Corelib.Init.Datatypes <> nil constr
+R346:348 Corelib.Init.Datatypes <> nil constr
+R353:356 Corelib.Init.Datatypes <> true constr
+R366:369 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R376:379 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R386:386 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R396:401 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R421:421 Corelib.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R387:389 Stdlib.Bool.Bool <> eqb def
+R402:414 proof <> beq_list_bool:71 def
+R437:441 Corelib.Init.Datatypes <> false constr
+def 466:477 <> bit_to_range
+R484:487 Corelib.Init.Datatypes <> bool ind
+binder 480:480 <> b:74
+R492:503 proof <> symbol_range rec
+R515:515 proof <> b:74 var
+R590:596 proof <> cum_low proj
+R590:596 proof <> cum_low proj
+R590:596 proof <> cum_low proj
+R604:611 proof <> cum_high proj
+R604:611 proof <> cum_high proj
+R620:624 proof <> total proj
+R620:624 proof <> total proj
+R525:531 proof <> cum_low proj
+R525:531 proof <> cum_low proj
+R525:531 proof <> cum_low proj
+R540:547 proof <> cum_high proj
+R540:547 proof <> cum_high proj
+R557:561 proof <> total proj
+R557:561 proof <> total proj
+def 651:662 <> range_to_bit
+R669:669 Corelib.Numbers.BinNums <> N ind
+binder 665:665 <> v:75
+R674:677 Corelib.Init.Datatypes <> bool ind
+R689:693 Stdlib.NArith.BinNat N ltb def
+R695:695 proof <> v:75 var
+R716:719 Corelib.Init.Datatypes <> true constr
+R705:709 Corelib.Init.Datatypes <> false constr
+def 736:743 <> sym_to_r
+R750:753 Corelib.Init.Datatypes <> bool ind
+binder 746:746 <> b:76
+R759:770 proof <> bit_to_range def
+R772:772 proof <> b:76 var
+def 788:795 <> r_to_sym
+R802:802 Corelib.Numbers.BinNums <> N ind
+binder 798:798 <> v:77
+R808:819 proof <> range_to_bit def
+R821:821 proof <> v:77 var
+def 837:843 <> total_f
+def 865:874 <> encode_msg
+R881:884 Corelib.Init.Datatypes <> list ind
+R886:889 Corelib.Init.Datatypes <> bool ind
+binder 877:877 <> l:78
+R897:909 proof <> encoder_state rec
+binder 893:893 <> s:79
+R914:926 proof <> encoder_state rec
+R941:941 proof <> l:78 var
+R954:956 Corelib.Init.Datatypes <> nil constr
+R961:961 proof <> s:79 var
+R970:973 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R979:988 proof <> encode_msg:80 def
+R993:1003 proof <> encode_step def
+R1005:1005 proof <> s:79 var
+R1008:1015 proof <> sym_to_r def
+def 1042:1051 <> decode_msg
+R1060:1062 Corelib.Init.Datatypes <> nat ind
+binder 1054:1056 <> len:82
+R1070:1082 proof <> decoder_state rec
+binder 1066:1066 <> s:83
+R1087:1090 Corelib.Init.Datatypes <> list ind
+R1092:1095 Corelib.Init.Datatypes <> bool ind
+R1110:1112 proof <> len:82 var
+R1125:1125 Corelib.Init.Datatypes <> O constr
+R1130:1132 Corelib.Init.Datatypes <> nil constr
+R1140:1140 Corelib.Init.Datatypes <> S constr
+R1164:1171 proof <> sym_to_r def
+R1174:1181 proof <> r_to_sym def
+R1184:1206 proof <> decode_get_scaled_value def
+R1208:1208 proof <> s:83 var
+R1210:1216 proof <> total_f def
+binder 1159:1159 <> r:86
+R1245:1263 proof <> renormalize_decoder def
+R1278:1282 proof <> d_low proj
+R1278:1282 proof <> d_low proj
+R1278:1282 proof <> d_low proj
+R1365:1370 proof <> d_high proj
+R1365:1370 proof <> d_high proj
+R1458:1464 proof <> d_value proj
+R1458:1464 proof <> d_value proj
+R1490:1496 proof <> d_input proj
+R1490:1496 proof <> d_input proj
+R1287:1287 Stdlib.NArith.BinNat <> ::N_scope:x_'+'_x not
+R1295:1298 Stdlib.NArith.BinNat <> ::N_scope:x_'+'_x not
+R1288:1292 proof <> d_low proj
+R1294:1294 proof <> s:83 var
+R1299:1299 Stdlib.NArith.BinNat <> ::N_scope:x_'/'_x not
+R1342:1345 Stdlib.NArith.BinNat <> ::N_scope:x_'/'_x not
+R1300:1300 Stdlib.NArith.BinNat <> ::N_scope:x_'*'_x not
+R1327:1331 Stdlib.NArith.BinNat <> ::N_scope:x_'*'_x not
+R1341:1341 Stdlib.NArith.BinNat <> ::N_scope:x_'*'_x not
+R1323:1325 Stdlib.NArith.BinNat <> ::N_scope:x_'+'_x not
+R1301:1301 Stdlib.NArith.BinNat <> ::N_scope:x_'-'_x not
+R1310:1314 Stdlib.NArith.BinNat <> ::N_scope:x_'-'_x not
+R1322:1322 Stdlib.NArith.BinNat <> ::N_scope:x_'-'_x not
+R1302:1307 proof <> d_high proj
+R1309:1309 proof <> s:83 var
+R1315:1319 proof <> d_low proj
+R1321:1321 proof <> s:83 var
+R1332:1338 proof <> cum_low proj
+R1340:1340 proof <> r:86 var
+R1346:1352 proof <> total_f def
+R1442:1444 Stdlib.NArith.BinNat <> ::N_scope:x_'-'_x not
+R1375:1375 Stdlib.NArith.BinNat <> ::N_scope:x_'+'_x not
+R1383:1386 Stdlib.NArith.BinNat <> ::N_scope:x_'+'_x not
+R1376:1380 proof <> d_low proj
+R1382:1382 proof <> s:83 var
+R1387:1387 Stdlib.NArith.BinNat <> ::N_scope:x_'/'_x not
+R1431:1434 Stdlib.NArith.BinNat <> ::N_scope:x_'/'_x not
+R1388:1388 Stdlib.NArith.BinNat <> ::N_scope:x_'*'_x not
+R1415:1419 Stdlib.NArith.BinNat <> ::N_scope:x_'*'_x not
+R1430:1430 Stdlib.NArith.BinNat <> ::N_scope:x_'*'_x not
+R1411:1413 Stdlib.NArith.BinNat <> ::N_scope:x_'+'_x not
+R1389:1389 Stdlib.NArith.BinNat <> ::N_scope:x_'-'_x not
+R1398:1402 Stdlib.NArith.BinNat <> ::N_scope:x_'-'_x not
+R1410:1410 Stdlib.NArith.BinNat <> ::N_scope:x_'-'_x not
+R1390:1395 proof <> d_high proj
+R1397:1397 proof <> s:83 var
+R1403:1407 proof <> d_low proj
+R1409:1409 proof <> s:83 var
+R1420:1427 proof <> cum_high proj
+R1429:1429 proof <> r:86 var
+R1435:1441 proof <> total_f def
+R1469:1475 proof <> d_value proj
+R1477:1477 proof <> s:83 var
+R1501:1507 proof <> d_input proj
+R1509:1509 proof <> s:83 var
+binder 1235:1240 <> s_next:87
+R1540:1540 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1585:1589 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1541:1548 proof <> r_to_sym def
+R1551:1573 proof <> decode_get_scaled_value def
+R1575:1575 proof <> s:83 var
+R1577:1583 proof <> total_f def
+R1590:1599 proof <> decode_msg:84 def
+R1603:1608 proof <> s_next:87 var
+def 1633:1640 <> run_test
+R1649:1652 Corelib.Init.Datatypes <> list ind
+R1654:1657 Corelib.Init.Datatypes <> bool ind
+binder 1643:1645 <> msg:88
+R1662:1665 Corelib.Init.Datatypes <> bool ind
+R1685:1694 proof <> encode_msg def
+R1696:1698 proof <> msg:88 var
+R1700:1711 proof <> init_encoder def
+binder 1678:1680 <> enc:89
+R1732:1747 proof <> finalize_encoder def
+R1749:1751 proof <> enc:89 var
+binder 1724:1727 <> bits:90
+R1771:1780 proof <> decode_msg def
+R1783:1788 Corelib.Init.Datatypes <> length def
+R1790:1792 proof <> msg:88 var
+R1796:1807 proof <> init_decoder def
+R1809:1812 proof <> bits:90 var
+binder 1764:1766 <> dec:91
+R1822:1834 proof <> beq_list_bool def
+R1836:1838 proof <> msg:88 var
+R1840:1842 proof <> dec:91 var
+prf 1856:1860 <> test1
+R1887:1889 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1864:1871 proof <> run_test def
+R1879:1882 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1874:1878 Corelib.Init.Datatypes <> false constr
+R1883:1885 Corelib.Init.Datatypes <> nil constr
+R1890:1893 Corelib.Init.Datatypes <> true constr
+prf 1931:1935 <> test2
+R1961:1963 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1939:1946 proof <> run_test def
+R1953:1956 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1949:1952 Corelib.Init.Datatypes <> true constr
+R1957:1959 Corelib.Init.Datatypes <> nil constr
+R1964:1967 Corelib.Init.Datatypes <> true constr
+prf 2005:2009 <> test3
+R2044:2046 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2013:2020 proof <> run_test def
+R2028:2031 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2023:2027 Corelib.Init.Datatypes <> false constr
+R2036:2039 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2032:2035 Corelib.Init.Datatypes <> true constr
+R2040:2042 Corelib.Init.Datatypes <> nil constr
+R2047:2050 Corelib.Init.Datatypes <> true constr
+prf 2088:2092 <> test4
+R2127:2129 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2096:2103 proof <> run_test def
+R2110:2113 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2106:2109 Corelib.Init.Datatypes <> true constr
+R2119:2122 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2114:2118 Corelib.Init.Datatypes <> false constr
+R2123:2125 Corelib.Init.Datatypes <> nil constr
+R2130:2133 Corelib.Init.Datatypes <> true constr
+prf 2171:2175 <> test5
+R2220:2222 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2179:2186 proof <> run_test def
+R2194:2197 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2189:2193 Corelib.Init.Datatypes <> false constr
+R2203:2206 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2198:2202 Corelib.Init.Datatypes <> false constr
+R2212:2215 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2207:2211 Corelib.Init.Datatypes <> false constr
+R2216:2218 Corelib.Init.Datatypes <> nil constr
+R2223:2226 Corelib.Init.Datatypes <> true constr
+prf 2264:2268 <> test6
+R2310:2312 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2272:2279 proof <> run_test def
+R2286:2289 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2282:2285 Corelib.Init.Datatypes <> true constr
+R2294:2297 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2290:2293 Corelib.Init.Datatypes <> true constr
+R2302:2305 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2298:2301 Corelib.Init.Datatypes <> true constr
+R2306:2308 Corelib.Init.Datatypes <> nil constr
+R2313:2316 Corelib.Init.Datatypes <> true constr
+prf 2354:2358 <> test7
+R2410:2412 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2362:2369 proof <> run_test def
+R2376:2379 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2372:2375 Corelib.Init.Datatypes <> true constr
+R2385:2388 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2380:2384 Corelib.Init.Datatypes <> false constr
+R2393:2396 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2389:2392 Corelib.Init.Datatypes <> true constr
+R2402:2405 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2397:2401 Corelib.Init.Datatypes <> false constr
+R2406:2408 Corelib.Init.Datatypes <> nil constr
+R2413:2416 Corelib.Init.Datatypes <> true constr
+prf 2454:2458 <> test8
+R2476:2478 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2462:2469 proof <> run_test def
+R2472:2474 Corelib.Init.Datatypes <> nil constr
+R2479:2482 Corelib.Init.Datatypes <> true constr
+R2515:2523 proof Scenarios <> sec

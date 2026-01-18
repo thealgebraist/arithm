@@ -1,0 +1,156 @@
+DIGEST 037870cbf753b100ca59694320b2f864
+Farithmetic
+R125:128 Stdlib.Lists.List <> <> lib
+R146:150 Stdlib.Arith.Arith <> <> lib
+sec 162:177 <> ArithmeticCoding
+var 192:192 ArithmeticCoding A
+var 213:220 ArithmeticCoding A_eq_dec
+R237:237 arithmetic <> ArithmeticCoding.A var
+binder 231:231 <> x:3
+binder 233:233 <> y:4
+R240:240 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R246:250 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R257:257 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R242:244 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R241:241 arithmetic <> x:3 var
+R245:245 arithmetic <> y:4 var
+R252:255 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R251:251 arithmetic <> x:3 var
+R256:256 arithmetic <> y:4 var
+rec 300:309 <> freq_entry
+proj 320:325 <> symbol
+proj 336:340 <> count
+R329:329 arithmetic <> ArithmeticCoding.A var
+R344:346 Corelib.Init.Datatypes <> nat ind
+var 365:369 ArithmeticCoding table
+R373:376 Corelib.Init.Datatypes <> list ind
+R378:387 arithmetic <> freq_entry rec
+def 432:442 <> total_count
+R449:452 Corelib.Init.Datatypes <> list ind
+R454:463 arithmetic <> freq_entry rec
+binder 445:445 <> l:12
+R468:470 Corelib.Init.Datatypes <> nat ind
+R485:485 arithmetic <> l:12 var
+R498:500 Corelib.Init.Datatypes <> nil constr
+R514:517 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R530:532 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R523:527 arithmetic <> count proj
+R533:543 arithmetic <> total_count:13 def
+def 594:602 <> get_range
+R609:609 arithmetic <> ArithmeticCoding.A var
+binder 605:605 <> a:15
+R617:620 Corelib.Init.Datatypes <> list ind
+R622:631 arithmetic <> freq_entry rec
+binder 613:613 <> l:16
+R641:643 Corelib.Init.Datatypes <> nat ind
+binder 635:637 <> cum:17
+R648:653 Corelib.Init.Datatypes <> option ind
+R659:661 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R656:658 Corelib.Init.Datatypes <> nat ind
+R662:664 Corelib.Init.Datatypes <> nat ind
+R680:680 arithmetic <> l:16 var
+R693:695 Corelib.Init.Datatypes <> nil constr
+R700:703 Corelib.Init.Datatypes <> None constr
+R712:715 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R732:739 arithmetic <> ArithmeticCoding.A_eq_dec var
+R741:741 arithmetic <> a:15 var
+R744:749 arithmetic <> symbol proj
+R806:814 arithmetic <> get_range:18 def
+R824:826 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R821:823 arithmetic <> cum:17 var
+R827:831 arithmetic <> count proj
+R816:816 arithmetic <> a:15 var
+R767:770 Corelib.Init.Datatypes <> Some constr
+R772:772 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R776:777 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R791:791 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R773:775 arithmetic <> cum:17 var
+R781:783 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R778:780 arithmetic <> cum:17 var
+R784:788 arithmetic <> count proj
+rec 877:881 <> state
+proj 892:894 <> low
+proj 907:910 <> high
+proj 923:927 <> range
+R898:900 Corelib.Init.Datatypes <> nat ind
+R914:916 Corelib.Init.Datatypes <> nat ind
+R931:933 Corelib.Init.Datatypes <> nat ind
+def 1000:1009 <> init_state
+R1020:1022 Corelib.Init.Datatypes <> nat ind
+binder 1012:1016 <> total:24
+R1027:1031 arithmetic <> state rec
+R1043:1045 arithmetic <> low proj
+R1043:1045 arithmetic <> low proj
+R1043:1045 arithmetic <> low proj
+R1053:1056 arithmetic <> high proj
+R1053:1056 arithmetic <> high proj
+R1068:1072 arithmetic <> range proj
+R1068:1072 arithmetic <> range proj
+R1061:1065 arithmetic <> total:24 var
+R1077:1081 arithmetic <> total:24 var
+def 1130:1140 <> encode_step
+R1147:1151 arithmetic <> state rec
+binder 1143:1143 <> s:25
+R1167:1169 Corelib.Init.Datatypes <> nat ind
+binder 1155:1155 <> l:26
+binder 1157:1157 <> h:27
+binder 1159:1163 <> total:28
+R1174:1178 arithmetic <> state rec
+R1202:1204 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R1196:1199 arithmetic <> high proj
+R1201:1201 arithmetic <> s:25 var
+R1205:1207 arithmetic <> low proj
+R1209:1209 arithmetic <> s:25 var
+binder 1191:1191 <> r:29
+R1221:1223 arithmetic <> low proj
+R1221:1223 arithmetic <> low proj
+R1221:1223 arithmetic <> low proj
+R1260:1263 arithmetic <> high proj
+R1260:1263 arithmetic <> high proj
+R1300:1304 arithmetic <> range proj
+R1300:1304 arithmetic <> range proj
+R1233:1235 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R1228:1230 arithmetic <> low proj
+R1232:1232 arithmetic <> s:25 var
+R1236:1236 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R1242:1245 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R1238:1240 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R1237:1237 arithmetic <> r:29 var
+R1241:1241 arithmetic <> l:26 var
+R1246:1250 arithmetic <> total:28 var
+R1273:1275 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R1268:1270 arithmetic <> low proj
+R1272:1272 arithmetic <> s:25 var
+R1276:1276 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R1282:1285 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R1278:1280 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R1277:1277 arithmetic <> r:29 var
+R1281:1281 arithmetic <> h:27 var
+R1286:1290 arithmetic <> total:28 var
+R1309:1313 arithmetic <> total:28 var
+var 1553:1553 ArithmeticCoding P
+R1557:1559 Corelib.Init.Datatypes <> nat ind
+def 1575:1582 <> MaxRange
+R1586:1588 Corelib.Init.Datatypes <> nat ind
+R1594:1596 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R1597:1597 arithmetic <> ArithmeticCoding.P var
+def 1613:1621 <> HalfRange
+R1625:1627 Corelib.Init.Datatypes <> nat ind
+R1633:1636 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R1642:1642 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R1638:1640 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R1637:1637 arithmetic <> ArithmeticCoding.P var
+def 1658:1669 <> QuarterRange
+R1673:1675 Corelib.Init.Datatypes <> nat ind
+R1681:1684 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R1690:1690 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R1686:1688 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R1685:1685 arithmetic <> ArithmeticCoding.P var
+rec 1703:1713 <> model_state
+proj 1724:1728 <> m_low
+proj 1741:1746 <> m_high
+proj 1759:1767 <> m_pending
+R1732:1734 Corelib.Init.Datatypes <> nat ind
+R1750:1752 Corelib.Init.Datatypes <> nat ind
+R1771:1773 Corelib.Init.Datatypes <> nat ind
+R1874:1889 arithmetic ArithmeticCoding <> sec
