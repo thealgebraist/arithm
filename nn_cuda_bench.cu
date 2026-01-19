@@ -9,6 +9,7 @@
 
 #include <cuda_runtime.h>
 #include <cublas_v2.h>
+#include <cub/cub.cuh>
 
 // --- Macros ---
 #define CHECK_CUDA(call) { \
