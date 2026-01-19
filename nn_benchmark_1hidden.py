@@ -46,7 +46,7 @@ def load_data():
             with open(f, "rb") as bf: data.append(bf.read())
         except: pass
     full = b"".join(data)
-    arr = np.frombuffer(full, dtype=np.uint8)
+    arr = np.frombuffer(full, dtype=np.uint8).copy()
     if len(arr) > MAX_DATA_SIZE: arr = arr[:MAX_DATA_SIZE]
     return arr
 
