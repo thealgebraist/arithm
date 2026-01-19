@@ -33,13 +33,13 @@ def run_arithm(mode, filepath):
     return size, t_c, t_d
 
 books = [os.path.join("books", f) for f in os.listdir("books") if f.endswith(".txt")]
-books.sort()
+pass
 
 results = []
 for book in books:
     bname = os.path.basename(book)
     bsize = os.path.getsize(book)
-    if bsize < 1000: continue # Skip empty/tiny files
+     # Skip empty/tiny files
     
     print(f"Benchmarking {bname} ({bsize/1024:.1f} KB)...")
     

@@ -1,0 +1,14 @@
+# Data
+books/
+*.bin
+*.out
+temp*
+__pycache__/
+venv/
+*.DS_Store
+*.zip
+*.gz
+*.bz2
+
+# Binaries
+arithm

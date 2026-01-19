@@ -1,0 +1,159 @@
+{
+  "book_145.txt": [
+    {
+      "frequency": 5e-05,
+      "period_length": 20000.0,
+      "strength": 54526.88496961078
+    },
+    {
+      "frequency": 5e-05,
+      "period_length": 20000.0,
+      "strength": 54526.88496961077
+    },
+    {
+      "frequency": 0.0001,
+      "period_length": 10000.0,
+      "strength": 53508.73795198015
+    },
+    {
+      "frequency": 0.0001,
+      "period_length": 10000.0,
+      "strength": 53508.73795198015
+    },
+    {
+      "frequency": 0.00025,
+      "period_length": 4000.0,
+      "strength": 48706.200615104455
+    },
+    {
+      "frequency": 0.00025,
+      "period_length": 4000.0,
+      "strength": 48706.200615104455
+    },
+    {
+      "frequency": 0.0002,
+      "period_length": 5000.0,
+      "strength": 46528.2859626674
+    },
+    {
+      "frequency": 0.0002,
+      "period_length": 5000.0,
+      "strength": 46528.2859626674
+    },
+    {
+      "frequency": 0.00015000000000000001,
+      "period_length": 6666.666666666666,
+      "strength": 46421.74713255378
+    },
+    {
+      "frequency": 0.00015000000000000001,
+      "period_length": 6666.666666666666,
+      "strength": 46421.74713255377
+    }
+  ],
+  "book_1342.txt": [
+    {
+      "frequency": 5e-05,
+      "period_length": 20000.0,
+      "strength": 73757.15593517266
+    },
+    {
+      "frequency": 5e-05,
+      "period_length": 20000.0,
+      "strength": 73757.15593517266
+    },
+    {
+      "frequency": 0.0001,
+      "period_length": 10000.0,
+      "strength": 66025.41877767595
+    },
+    {
+      "frequency": 0.0001,
+      "period_length": 10000.0,
+      "strength": 66025.41877767595
+    },
+    {
+      "frequency": 0.00015000000000000001,
+      "period_length": 6666.666666666666,
+      "strength": 64715.68625751432
+    },
+    {
+      "frequency": 0.00015000000000000001,
+      "period_length": 6666.666666666666,
+      "strength": 64715.68625751432
+    },
+    {
+      "frequency": 0.0002,
+      "period_length": 5000.0,
+      "strength": 57971.812864007436
+    },
+    {
+      "frequency": 0.0002,
+      "period_length": 5000.0,
+      "strength": 57971.812864007436
+    },
+    {
+      "frequency": 0.00025,
+      "period_length": 4000.0,
+      "strength": 56247.87657899791
+    },
+    {
+      "frequency": 0.00025,
+      "period_length": 4000.0,
+      "strength": 56247.8765789979
+    }
+  ],
+  "book_76.txt": [],
+  "book_2701.txt": [
+    {
+      "frequency": 5e-05,
+      "period_length": 20000.0,
+      "strength": 90180.58826592812
+    },
+    {
+      "frequency": 5e-05,
+      "period_length": 20000.0,
+      "strength": 90180.5882659281
+    },
+    {
+      "frequency": 0.0001,
+      "period_length": 10000.0,
+      "strength": 46256.03157654639
+    },
+    {
+      "frequency": 0.0001,
+      "period_length": 10000.0,
+      "strength": 46256.03157654639
+    },
+    {
+      "frequency": 0.00035,
+      "period_length": 2857.1428571428573,
+      "strength": 30572.451466571303
+    },
+    {
+      "frequency": 0.00035,
+      "period_length": 2857.1428571428573,
+      "strength": 30572.451466571303
+    },
+    {
+      "frequency": 0.00015000000000000001,
+      "period_length": 6666.666666666666,
+      "strength": 27829.076232083742
+    },
+    {
+      "frequency": 0.00015000000000000001,
+      "period_length": 6666.666666666666,
+      "strength": 27829.076232083742
+    },
+    {
+      "frequency": 0.0005,
+      "period_length": 2000.0,
+      "strength": 26117.045584515417
+    },
+    {
+      "frequency": 0.0005,
+      "period_length": 2000.0,
+      "strength": 26117.045584515417
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "book_145.txt": {
+    "top_5_bases": [
+      "~e:1)DOZEEJP69)G?YNK=VSGM :2?lT]MNMbQZMM?/U\\ZRiR_M;9ViWZf]E)PJPg",
+      "VfOTU|U 9n|S?dYI?Fpq^D]hS9XoZF0g~YIOe]KRb]QS_GCJzvhO8?Bl\\\\SPBE]h",
+      "NNS>5btdB[X8( W~jH7Qi\".SuY.EL^@PJVSRP;=PEDJ@MWP^M9QnF %O\\?ESj?>P",
+      "@b|z?)4MlYd=[LWT]^ZMBO^HWHZREM[BYG_XR@T]`p &B~yvj5G8,0RxeaFDDSj]",
+      "R<F=BQJK[kPPOCBDVVH9RQU??VcF/_~c/$8qs@GfNC1Ani0 Ijc`5FH_NV][A>6V"
+    ],
+    "singular_values": [
+      1828.6722177323393,
+      1747.97618472458,
+      1719.4905927880116,
+      1715.9083341871933,
+      1711.1326526860523,
+      1694.8624978800087,
+      1678.6175632255156,
+      1668.534690694519,
+      1651.5124142637203,
+      1629.1411652677123
+    ]
+  },
+  "book_1342.txt": {
+    "top_5_bases": [
+      "EGOC?LSNZLU9YEJ;LTcTOOqy~vx\\e]UIUbcWld_X^bWEQLfO[saAGALNS]O IRaE",
+      "=.) *3:+.'.'*(,#.;9+(59<947NDK@IQZUUIXUlcekop~kpcehxttmrtg_ehedc",
+      "qkmfi\\oqgZP<QVWWWJJJK>>>@=H44 '$'37/#22D<7566ALRIPLgajlbieYuz~tr",
+      "XX`^^MC13?bm_VI]{S,+Yq`ETO; ;or[88TKBN_~a,8T^D?hkROYU4TpjW_N27^j",
+      "PBA~q{/=dyl+Oca@Gkmf2+Aez`L@ZMGdmSRIKJGW]YNWdbY^`\\W;7NvhUP_S Cvy"
+    ],
+    "singular_values": [
+      3683.4136284894303,
+      2143.2584955626985,
+      1945.5463133714434,
+      1747.9732521227165,
+      1745.2246369005204,
+      1724.6041081584297,
+      1693.6927461551854,
+      1680.4726735756033,
+      1665.3842379325326,
+      1646.0817001416676
+    ]
+  },
+  "book_76.txt": {
+    "top_5_bases": [
+      "U=FA=VVXW>QGA55k~=*6u^(:G[UAK`0>+jr4\"2[pK FaL9/X_N>OCRPjO@N[wQ=2",
+      "6LDU* IV,49[G+GNF1BF2:9Q>?0GQ6>?JA>-88SDMIK?0@?H?5-L\\.+9~F',<WD7",
+      "g~WF8_kc^Adj=YHpYOL<q`I_bTVNB8]kq2Afn[ A_eJDbf=HuWLTU^R]`SPco_DE",
+      "1>LYP$1d]8 J[H/5\\B5LHC9?YEA?B=6`N@8\"~FT2FBH[c(<<Ub17D`O5;IXN>GLQ",
+      "c# %r}f/9bWK=0lUb41}a>FAXNLkXW@iaJ*Q~W]VwAXX\\ZHYNaRakQ@Foj]NPHCQ"
+    ],
+    "singular_values": [
+      1803.8421520479465,
+      1788.1860068394888,
+      1758.1753041735142,
+      1739.3256463187877,
+      1731.6190552060218,
+      1712.642727674376,
+      1709.004404929721,
+      1700.0788704252636,
+      1683.9832944532918,
+      1663.4009529559405
+    ]
+  },
+  "book_2701.txt": {
+    "top_5_bases": [
+      "hnF=GZgjc96BbNT#9,[M_Wdc]I> PX2AiNdU~hZWdQ?GH23LqjqJYi5RO@TQ^jL[",
+      "86>.03A^m{~veD>A>=?YT]PcQJ52-1 5BOajlKTPF=/@BRHQ^]dMI4KF72?PP`ZP",
+      "n_ueDKD?K`jiv~lzgoP ,#XgqbTjF;?C:URMrmcEOMHPTg|cIAD;HadzhXWNNFSL",
+      "3!5JBCaqX9666=PKFL?(,$ 5C~KNCGD,:9N7Ai{n^T[?5+@QYGXQ>,6C*/CMP>07",
+      "XXFN::B=8MgpT@GQlcP@GH=<SYTEPTGQGS:77JVPVQ^dZD =OUU\\i~hI,0J=IgYj"
+    ],
+    "singular_values": [
+      2131.351938965689,
+      1776.3134618741528,
+      1752.7792104803257,
+      1719.4285959678552,
+      1710.949543008414,
+      1698.4916269412854,
+      1682.3795027401602,
+      1664.837254728902,
+      1654.7925473444095,
+      1650.418268572155
+    ]
+  }
+}
